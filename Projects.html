@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matthew Jimenez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Portfolio</strong> by Matthew Jimenez</a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/matthewjinjimenez/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+										<li><a href="https://github.com/mjinkim" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://open.spotify.com/user/kimchi_bowl" class="icon brands fa-spotify"><span class="label">Spotify</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Project Details</h1>
+									</header>
+									<p>
+										Hello There! Below are the project I am working on or completed to gain some expereince with SQL and Python.
+										These projects are mainly focusing around Data Analytics, Data Cleaning, Visualizations and 
+									</p>
+
+									<hr class="major" />
+									
+									<h2>Umpire Accuracy Exploration</h2>
+									<p>
+										As an avid baseball fan, Go Dodgers!, I wanted to expolore some statistical data for umpires behind the plate. 
+										I used data on Kaggle from the <a href="https://umpscorecards.com/">UmpScoreCard</a> and explored into the data to see if any recent MLB rule changes have impacted the overall performance of umpire calls. 
+										A great way to improve my querying skills, at the same time review some baseball data. 
+									</p>
+									<p>
+										<h5>High and Low Accuracy Games</h5>
+											<li>1 Perfect game with a 100% accuracy</li>
+											<li>32 Total games that were above or equal to 99% accuracy. (19 in 2022 and 14 for all years before)</li>
+											<li>183 Total games below or equal to 85% accuracy. (Large Majority are before 2020)</li>
+									</p>
+									<p>
+										<h5>Yearly Metrics</h5>
+											<li>Starting in 2019 we start to see an increase in overall accuracy and a drop in incorrect calls.</li>
+											<li>2022 Playoff Statics were the best for the data points captured</li>
+											<li>2017 Season had a sudden increase in accuracy and drop in incorrect calls when compared to 2 year before and after.</li>
+									</p>
+									<p>
+										<h5>Does Home Field also Impact Umpires (Theory)</h5>
+											<li>For the total data we see 9753 wins for Home Teams and 8459 Away Teams</li>
+											<li>We see generally the away team on average has a higher number of incorrect calls and correct calls. Accuracy remains the same.</li>
+											<li>Games with a 1 score difference we see the away team reciving on average 12 incorrect calls to 11 for the home team. With the average incorrect calls in mind, we saw in 2022 the away team winning 71 games and the home team winning 95.</li>
+											<li>Games with a 1 score difference we saw the away team reciving 146.16 correct calls to 141.65 for the home team. With the average correct calls in mind, we saw in 2022 the away team winning 137 games and the home team winning 190</li>
+											<li>Games with both teams scoring more than 10 runs saw the same story. With the away team reciving on average 14.27 incorrect calls to 13.56</li>
+											<li>There was not difference with high scoring games using the average incorrect calls in 2022. We did see the home team winning 4 games to 0 games when using the correct average.</li>
+									</p>
+
+									<p>
+										<h4>Conclusion</h4>
+										<li>With the more recent crack down on illegal substance that pitches are using in game also caused their overall spin rate to drop. Most major league pitches utilize a variation of fastballs, breaking balls, and changeups that all visually appear differently to batters. The overall rotation of the baseball seems to also impact how umpires are able to track the baseball into the strike zone.</li>
+										<br>
+										<li>As the MLB is looking to incoporate AI systems to improve the overall correct balls and strikes in a game. We could also see the catcher position alter as well. Catchers also have an important role in "framing runs" in which they are awarded a pitch outside of the strike zone with their glove placement during the catch of a pitch. Having a system that will automatically call the ball might also alter catchers into a more traditional on base position.</li>
+										<br>
+										<li>It is hard to say if the average of incorrect calls and correct calls has a correlation towards teams winning as most team expereice an advantage at their home stadium. We do see a slight difference with umpires calling incorrect and correct balls during a game. Incorrect and correct calls do impact how teams utilize thier bullpin, most teams have a set limit to how many pitches their starting pitcher throws and how many pitches each bull pin player throws. The sligh difference could provid an advantage to teams to pull their starter in order to prevent injuries. Teams can then take advantage of the new pitcher coming in to save runs or get crucial outs.</li>
+									</p>	
+
+
+									<ul class="actions">
+										<li><a href="https://github.com/mjinkim/portfolioprojects/tree/main/umpireproject" class="button">More</a></li>
+									</ul>
+									<hr class="major" />
+
+									<h2>Coffee Review Project</h2>
+									<p>
+									As an avid coffee drinker, I was excitied to see a data set on Kaggle with Reviews associate to coffee types and brands. 
+									I noticied the data set was scraped from the <a href="https://www.coffeereview.com">Coffee Review Site</a> and started reviewing the details.
+									I learned about specific coffee characteristcs and what determins the roast level of coffee. I also read into how each coffee is rated and the scales being used. 
+									I thought I knew my fair share, but after this I realized I knew very little about coffee. I wanted to take a look into a topic that I already enjoyed and see what I could add to the data set.
+									</p>
+									<p>
+									Majority of the time was cleaning the data and updating details to make the data more manageable. Such as nulls, formatting, and missing data. 
+									After completing the data clean up, I created a view to start looking into my next batch of coffee to try next! I think I might go with <a href="https://www.coffeereview.com/review/suyusama-program-colombia/">Bird Rock Coffee Roasters</a>
+									</p>
+									<p> Changes that were made in the data set
+										<ul>
+											<li>Updated review_date with date. Used to removed the 00:00:00 format in the standard mm/dd/yyyy.</li>
+											<li>Standardized NA values, found 'NA', 'Na/', '/', 'NA/NA'. Used NA to declare no value given.</li>
+											<li>Added Coffee Type based on url and description. As there were variations as expresso, bottled, whole bean, cold brew selection in the data.</li>
+											<li>Updated Null values in coffee characteristics. Scale used in the review were based on 1 to 10 values. Used 0 to indicate no value given.</li>
+											<li>Updated Slug column to end of sheet as review_url for easier read of data. </li>
+											<li><a href="https://docs.google.com/spreadsheets/d/1fMiXi-mO4mJiwWeSofErObLrrNKJE_p7UloDIFC5suM/edit?usp=sharing">Created view to use in an excel sheet</a></li>
+										</ul>
+
+									</p>
+									<iframe width ='1000' height='410' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSD5tcoO7sboh0w2I9yifQLffDIR0qmp_p_XK4tvuuHoJgZC-76-vv2SP1aLHbqJkz054EYXprXmh0R/pubhtml?widget=true&amp;headers=false"></iframe>
+									<ul class="actions">
+										<li><a href="https://github.com/mjinkim/portfolioprojects/tree/main/coffeeproject" class="button">More</a></li>
+									</ul>
+									<hr class="major" />
+
+								<h2>Movie Correlation</h2>
+									<p>
+										For this project I wanted to explore some data visualization with python. We used the <a href="https://www.kaggle.com/datasets/danielgrijalvas/movies">Kaggle - Movie Industry Data Set</a>. 
+										I wanted to also start and learn pyton and in this project we setup Jupiter Notebooks in vscode, we used a few libaries and started working on the data. 
+										This was a great way to get an introduction into the language and see how powerful the tool is for future projects. I hope to start incoporating python to make some simple visual and correlations in the data. 
+
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/mjinkim/portfolioprojects/blob/main/additionalprojects/movie_correlation.ipynb" class="button">More</a></li>
+									</ul>
+									<hr class="major" />
+
+								<h2>Data Cleaning</h2>
+									<p>
+										In this project we are exploring a housing data set and focused on cleaning the data. The data has some formating and data issues, we attempted to clean the data to make it more manageable to use.
+										We make updates to the table, parse some details like address, and replace null values with alread existing data points with in the set. The project was focused on a guide and a learning opportunity
+										to visually see what to expect when dealing with data cleanup. 
+									</p>
+									<ul class="actions">
+										<li><a href="https://github.com/mjinkim/portfolioprojects/blob/main/additionalprojects/movie_correlation.ipynb" class="button">More</a></li>
+									</ul>
+									<hr class="major" />
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="Projects.html">Projects</a></li>
+										<li><a href="Experience.html">Experience</a></li>
+										<li><a href="Contacts.html">Contact Details</a></li>
+									</ul>
+								</nav>
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get in touch</h2>
+								</header>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="mailto:mattjin.kim@gmail.com">mattjin.kim@gmail.com</a></li>
+									<li class="icon brands fa-linkedin"><a href="mailto:mattjin.kim@gmail.com">Linkedin</a></li>
+									<li class="icon solid fa-home">San Diego, California</li>
+								</ul>
+							</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
